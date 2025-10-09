@@ -2,13 +2,15 @@
 
 Current plug-in version: WebPShop 0.4.3
 
+**Disclaimer: WebPShop is no longer maintained.**
+
 WebPShop is a Photoshop module for opening and saving WebP images, including
 animations.
 
 **Important note: [Photoshop 23.2 and newer natively supports WebP](https://helpx.adobe.com/photoshop/kb/support-webp-image-format.html).**
-However some features such as preview at encoding and animations are missing.
-WebPShop can still be installed and used for these use cases and/or for
-Photoshop 23.1 and below.
+However some features such as preview at encoding and animations are missing
+in Photoshop 23.2. WebPShop can still be installed and used for these use
+cases or for Photoshop 23.1 and some earlier versions.
 
 Please look at the files LICENSE and CONTRIBUTING in the "docs" folder before
 using the contents of this repository or contributing.
@@ -98,7 +100,6 @@ group, link, etc. Please see the
 *   This plug-in does not extend `Export As` neither `Save for Web`.
 *   Encoding and decoding are done in a single pass. It is not currently
     possible to cancel such actions, and it might take some time on big images.
-*   Only the latest Photoshop release is supported.
 
 ## Troubleshooting
 
